@@ -136,13 +136,14 @@
     <div class="container">
         <div class="menu">
             <button onclick="showSection('home')">🏠 Trang Chủ</button>
-            <button onclick="showSection('setup')">⚙️ Hướng Dẫn</button>
+            <button onclick="showSection('setup')">⚙️ Setup Tool</button>
+            <button onclick="showSection('about')">🛠 Video Hướng Dẫn</button>
         </div>
 
         <!-- Trang Chủ -->
         <div id="home" class="section active">
             <div class="title">Thành Quý Tool</div>
-
+            
             <h3>📥 Tải về:</h3>
         <a class="download-btn" href="https://link4m.com/tgu1Dm" target="_blank">Tải Tool Gộp</a>
         <a class="download-btn" href="https://www.mediafire.com/file/3rmg6x4w4e7o9bo/Termux_0.119.1_apkcombo.com.apk/file" target="_blank">Tải App Termux</a>
@@ -156,8 +157,7 @@
         <!-- Hướng Dẫn Setup -->
         <div id="setup" class="section">
             <div class="title">⚙️ Hướng Dẫn Setup Tool</div>
-
-            <h3>* Lưu ý: Các bạn sao chép theo thứ tự, từ trên xuống nha</h3>
+            
             <h3>📌 Lệnh Setup Android - Termux:</h3>
             <div class="code-block">* Lưu ý: Sao Chép Lệnh Và Nhập Lệnh Theo Thứ Tự</div>
             <div class="code-block">1: apt update && apt upgrade && pkg install python && pip install requests && termux-setup-storage</div>
@@ -166,6 +166,15 @@
             <div class="code-block">1: cd /sdcard/Download/ThanhQuyTool && python ThanhQuyTool.py</div>
         </div>
     </div>
+        <!-- Giới Thiệu -->
+<div id="about" class="section">
+    <div class="title">🛠 Video Hướng Dẫn</div>
+    <h3>⚠️ Các Video Hướng Dẫn:</h3>
+    <p><a class="video-link" href="https://youtu.be/t04uoRPHjJU?si=ztkFhPEgASGXDuL0" target="_blank">● Cách Lấy Cookie</a></p>
+</div>
+
+
+
 
     <script>
         function showSection(sectionId) {
